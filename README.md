@@ -120,6 +120,10 @@ Je prends conscience que même si le projet n'a pas l'air "gros", il me parait d
 
 Une fois la checklist faites, je vais essayer de hiérarchiser les choses à faire, je sais que de nouvelles se rajouteront au fur et à mesure mais une étape à la fois. 
 
+J'ai pu commencer réellement mon projet, certes en retard, mais au moins je l'ai débuté. J'ai crée mes entités ainsi que mes fixtures mais j'avance tout doucement. Je n'ai pas assez pratiqué, déjà, mais aussi je me perds dès que je dois naviguer dans l'arborescence de symfony. Par conséquent, je perds du temps dans la compréhension et l'avancement de mon projet. 
+
+De même que, je ne me concentre pas sur le front pour le moment, non pas que ce n'est pas important mais je préfère m'appliquer sur le back plutôt que sur le front (dans un premier temps).
+
 
 
 

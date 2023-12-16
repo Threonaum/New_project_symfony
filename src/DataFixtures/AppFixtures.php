@@ -24,14 +24,28 @@ class AppFixtures extends Fixture
         $manager->persist($admin);
     
         
-        $userRegular = new User();
-        $userRegular
+        $basicUser = new User();
+        $basicUser
         ->setEmail('meijuan@gmail.com')
         ->setPassword('12345')
         ->setLogin('meijuan');
-        $manager->persist($userRegular);
+        $manager->persist($basicUser);
 
+        $basicUser = new User();
+        $basicUser
+        ->setEmail('clément@gmail.com')
+        ->setPassword('12345')
+        ->setLogin('clément');
+        $manager->persist($basicUser);
 
+        $basicUser = new User();
+        $basicUser
+        ->setEmail('khaoula@gmail.com')
+        ->setPassword('12345')
+        ->setLogin('khaoula');
+        $manager->persist($basicUser);
+
+        
         $manager->flush();
     }
 }
