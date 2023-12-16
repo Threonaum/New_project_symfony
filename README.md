@@ -135,10 +135,13 @@ Avant que le projet ne démarre, certaines fonctionnalités doivent impérativem
 
 Je n'ai pas spécialement beaucoup d'idées sur les choses que je pourrai rajouter en fonctionnalité si j'ai du temps mais peut-être qu'un moteur de recherche serait envisageable. Dans tous les cas je vais d'abord me concentrer sur le "cahier des charges" de l'énoncé.
 
-J'ai dû créer un "algo" pour déterminer le prix d'une location en fonction de 3 paramètres *(l'année de la voiture, le nombre de km que la personne va parcourir et le nombre de jours que va durer la location)*. 
+J'ai dû créer un "algo" pour déterminer le prix d'une location en fonction de 3 paramètres *(l'année de la voiture, le nombre de km que la personne va parcourir et le nombre de jours que va durer la location)*.
+ 
+ici = src\Service\PriceEstimate.php
+
 Pour résumer : ```(($year*0.5)/1000)*$nbkm*0.6+$nbdays*30```.
 
-__Exemple :__ ((2020*0.5)/1000)*150*0.6+5*30 = le prix estilmée de la location soit 240.9 euros.
+__Exemple :__ ((2020 x 0.5)/ 1000) x 150 x 0.6 + 5 x 30 = le prix estilmée de la location soit 240.9 euros.
 
 ici, __2020__ correspond à l'année de la voiture, __150__ correspond au nombre de km que la personne voudra parcourir et __5__ quant à lui est le nombre de jour de la location. De cette manière, plus une voiture est récente et donc plus chère et plus le tarif estimé de la location sera élevé. *(de même que plus le nombre de km et de jour sera élevé et plus le prix sera élevé)*.
 
