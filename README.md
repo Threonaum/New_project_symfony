@@ -124,8 +124,7 @@ J'ai pu commencer réellement mon projet, certes en retard, mais au moins je l'a
 
 De même que, je ne me concentre pas sur le front pour le moment, non pas que ce n'est pas important mais je préfère m'appliquer sur le back plutôt que sur le front (dans un premier temps).
 
-
-
+Je ne sais pas quoi faire, ni par où commencer ... j'ai fais pleins de choses que j'ai enlevé parce que je ne savais pas ce que je devais en faire. Il y a trop de choses pour moi, tout se mélange, je ne serais donc pas développeur je commence à en avoir la certitude au fond de moi. Mais continuer c'est de l'acharnement ? du courage ? de la stupidité ? de la naïveté ? j'ai honte mais tellement honte. Excuse moi lucas.
 
   
 ### Fonctionnalités présentes dans le projet
@@ -156,3 +155,5 @@ ici, __2020__ correspond à l'année de la voiture, __150__ correspond au nombre
   
 ### Conclusion
 [haut de page](#sommaire)
+
+Il n'y a pas grand chose à conclure au vu de ce qui a été fait. Je suis triste et honteux à la fois. Je ne peux m'en prendre qu'à moi-même c'est certains et je ne blamerais jamais personne d'autre à ma place pour le travail que je rends. Je suis perdu tout bêtement. Désolé Lucas. 

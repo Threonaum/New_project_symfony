@@ -1,16 +1,28 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="UTF-8">
-        <title>{% block title %}Welcome!{% endblock %}</title>
-        <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>">
-        {% block stylesheets %}
-        {% endblock %}
-
-        {% block javascripts %}
-        {% endblock %}
-    </head>
+    <!DOCTYPE html>
+    <html>
+        <head>
+            <meta charset="UTF-8" />
+            <title>
+            {% block title %}
+                Human Booster
+            {% endblock %}
+            </title>
+            <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 128 128%22><text y=%221.2em%22 font-size=%2296%22>⚫️</text></svg>" />
+            <script src="https://cdn.tailwindcss.com?plugins=typography,forms"></script>
+        </head>
     <body>
-        {% block body %}{% endblock %}
+        <header>{{ include('nav.html.twig') }}</header>
+
+        <main class="prose mx-auto">
+        {% for type, messages in app.flashes(['success', 'error']) %}
+            {% for message in messages %}
+            <div class="bg-{{ type == 'success' ? 'green' : 'red' }}-200 text-{{ type == 'success' ? 'green' : 'red' }}-700 py-2 px-5 my-4">{{ message }}</div>
+            {% endfor %}
+        {% endfor %}
+
+        {% block body %}
+            <h1>HUMAN BOOSTER</h1>
+        {% endblock %}
+        </main>
     </body>
-</html>
+    </html>
